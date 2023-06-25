@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Kanit:wght@200;300;400;500;600&family=Lato:wght@400;700;900&family=Lobster+Two:wght@700&family=Montserrat:ital,wght@0,500;0,600;1,600&family=Poppins:wght@200;400;500;600;800&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <div class="bg-container">
+      <header>
+        <div class="logo">
+          <h1>LOGO</h1>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="Index.html#restaurant-menu">MENU</a></li>
+            <li><a href="Index.html#AddressAndreview">CONTACT</a></li>
+            <li><a href="Index.html#about-container">ABOUT</a></li>
+          </ul>
+        </div>
+        <div class="menubar">
+          <i class="fa-solid fa-bars menu" onclick="showMenu()"></i>
+        </div>
+      </header>
+      <div class="showmenu Forchangedisplay" id="showmenu">
+        <ul>
+          <li><a href="Index.html">HOME</a></li>
+          <li><a href="Index.html#restaurant-menu">MENU</a></li>
+          <li><a href="Index.html#AddressAndreview">CONTACT</a></li>
+          <li><a href="Index.html#about-container">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="restaurant-menu" id="restaurant-menu">
+      <div class="menuhead">
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+        <h1>Our Menu</h1>
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+      </div>
+      <div class="menu-img"></div>
+      <div class="dishname">
+        <h3 id="dishname1"></h3>
+      </div>
+    </div>
+
+    <!-- <div class="outerdivide">
+      <div class="innerdivide"></div>
+    </div> -->
+
+    <div class="Restaurant-imgs">
+      <div class="resimghead">
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+        <h1>Images</h1>
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+      </div>
+      <div class="images">
+        <div class="img1 img"></div>
+        <div class="img2 img"></div>
+        <div class="img3 img"></div>
+        <div class="img4 img"></div>
+        <div class="img5 img"></div>
+        <div class="img6 img"></div>
+        <div class="img7 img"></div>
+        <div class="img8 img"></div>
+      </div>
+    </div>
+
+    <!-- <div class="outerdivide">
+      <div class="innerdivide"></div>
+    </div> -->
+
+    <div class="AddressAndreview" id="AddressAndreview">
+      <div class="Addressandreview-head">
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+        <h1>Our Address & Review</h1>
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+      </div>
+      <div class="addressandreview-part">
+        <div class="address-part">
+          <div class="opening-hrs">
+            <p class="head">Opening Hours:</p>
+            <p class="text">Monday to Sunday -------- 11:00 AM to 12:00 AM</p>
+          </div>
+          <br />
+          <div class="address">
+            <p class="head">Our Address:</p>
+            <p class="text">
+              3/3 Allahpur Road, Balson Chauraha near Ram Mandir, George Town,
+              Prayagraj , Uttar Pardesh 200110
+              <br />
+              Order No: 098765432
+              <br />
+              Email: PlatterInfo@gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="review-part">
+          <div class="review-part-head">
+            <p class="reviewhead">Reviews</p>
+          </div>
+          <div class="review-container">
+            <div class="review1 review">
+              <div class="img">
+                <img src="./Reviewpics/male-ge2e3ba7cc_640.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  Great Family restaurant ... very good quality of food and staff is also well maintained. South Indian section here popular here and I recommend you to must try that ..... Overall good expereince
+                </p>
+              </div>
+            </div>
+            <div class="review2 review">
+              <div class="img">
+                <img src="./Reviewpics/smile-g7c8597b2a_640.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  The foood is very delicious and the presentation of the food is also the best . The service of the restaurant is top class as you do not have to wait so long for your to come to your table , apart from this the staff was also very co-operative
+                </p>
+              </div>
+            </div>
+            <div class="review3 review">
+              <div class="img">
+                <img src="./Reviewpics/woman-g053ababed_640.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  A very good and fabulous restaurant . Moderately expensive and you will get some extra discount if you are a student with valid student ID Card. You can enjoy your food here. Good expereince with staff.
+                  quos.
+                </p>
+              </div>
+            </div>
+            <div class="review4 review">
+              <div class="img">
+                <img src="./Reviewpics/portrait-g22ccb0d06_640.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  You may have to wait a little more than other restaurants .... please reserve a seat if you are planning for dinner .....Food quality is very nice , fresh and deleicious foood is served here.
+                </p>
+              </div>
+            </div>
+            <button class="button display-left" onclick="plusDivs(-1)">
+                &#10094;
+              </button>
+              <button class="button display-right" onclick="plusDivs(+1)">
+                &#10095;
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="outerdivide">
+        <div class="innerdivide"></div>
+    </div> -->
+
+    <div class="about-container" id="about-container">
+        <div class="about-head">
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+        <h1>About</h1>
+        <i class="fa-sharp fa-solid fa-star-of-life"></i>
+        </div>
+        <div class="about-section">
+            <div class="about-text">
+                <p> Platter restaurant started its first branch in Defence Colony in 1985 and since then it has moved on to become the most preferred destination for South Indian cuisines across the country. Within a short span Platter restaurant has spread its wings far and wide and today with more than 90 restaurants, Platter restaurant has established its presence in the National Capital Region (NCR) through company owned restaurants and in various prominent cities of North India through franchise outlets. Having won numerous awards in the Hospitality industry in various categories over the years, Platter restaurant continues to delight its customers with its authentic South Indian food cooked fresh many times a day.</p>
+            </div>
+            <div class="about-img">
+                <img src="./images/restaurant-g49d637246_1920.jpg" alt="">
+            </div>
+        </div> 
+    </div>
+
+    <footer>
+      <div class="details">
+        <div class="contact-info">
+          <p class="head">For Any Query</p>
+          <p>Contact No: 00217-98765</p>
+          <p>Email: Platter@gmail.com</p>
+        </div>
+        <div class="social-media">
+          <p class="head">Social Media Handles</p>
+          <p><i class="fa-brands fa-facebook"></i> Facebook<br><i class="fa-brands fa-instagram"></i> Instagram <br>
+            <i class="fa-brands fa-twitter"></i> Twitter</p>
+        </div>
+        <div class="lines">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum at nemo eos tempora numquam eligendi id rerum vitae perferendis, illo accusamus ab fugit ullam quae quibusdam ut, cum corporis aperiam minus dolores quia quos commodi? Aut quaerat, non tempore inventore cum quisquam ad quibusdam, similique harum qui eos, placeat animi!</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p><span> | Created By Divyanjali Soni | </span> Platter &copy; 2023 All right reserved</p>
+      </div>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>
